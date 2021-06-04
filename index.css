@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.btn-row {
+  display: flex;
+
+  justify-content: center;
+  align-self: center;
+  border-radius: 10px;
+  margin: 2px;
+  padding: 2px;
+  font-size: 15px;
+}
+
+.keypad {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #000000;
+  height: 30vh;
+  width: 40vh;
+}
+
+.calc-app {
+  display: inline-table;
+  justify-content: center;
+  align-items: center;
+  background: lightcoral;
+}
+
+.container {
+  display: inline-table;
+  justify-content: center;
+}
+
+input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: 12px;
+  height: auto;
+  width: 35vh;
+}
+button {
+  height: 4vh;
+  width: 7vh;
+  border-radius: 5px;
+}
+
+.font-title {
+  color: darkred;
+}
